@@ -5,8 +5,7 @@ import androidx.lifecycle.LiveData
 import com.br.sampleapplication.baseviewmodel.UIAction
 import com.br.sampleapplication.baseviewmodel.UIState
 
-abstract class BaseActivity<State : UIState, Action : UIAction>(
-) : AppCompatActivity() {
+abstract class BaseActivity<State : UIState, Action : UIAction> : AppCompatActivity() {
 
     fun onStartActivity(state: LiveData<State>, action: LiveData<Action>) {
         state.observe(this) {

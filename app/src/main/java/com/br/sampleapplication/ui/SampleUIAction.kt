@@ -1,4 +1,4 @@
-package com.br.sampleapplication
+package com.br.sampleapplication.ui
 
 import com.br.sampleapplication.baseviewmodel.UIAction
 
