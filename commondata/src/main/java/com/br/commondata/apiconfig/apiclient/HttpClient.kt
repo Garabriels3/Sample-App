@@ -16,7 +16,7 @@ object HttpClient {
 
     fun retrofitBuild(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://api.github.com/")
+            .baseUrl("https://pokeapi.co/")
             .client(okHttpBuild())
             .addCallAdapterFactory(CoroutineCallAdapterFactory())
             .addConverterFactory(MoshiConverterFactory.create(moshiFactory()).asLenient())
