@@ -1,19 +1,17 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
 }
 
 android {
-    compileSdk 33
+    compileSdk 32
 
     defaultConfig {
-        applicationId "com.br.sampleapplication"
         minSdk 28
-        targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        targetSdk 32
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
@@ -29,30 +27,26 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    buildFeatures {
-        viewBinding true
-    }
 }
 
 dependencies {
 
-    implementation project(':feature:linkshortener')
-
-    implementation 'androidx.core:core-ktx:1.9.0'
-    implementation 'androidx.appcompat:appcompat:1.5.1'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.0'
     implementation 'com.google.android.material:material:1.7.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    // KOIN
+    // Koin
     implementation "io.insert-koin:koin-core:$koin_version"
     testImplementation "io.insert-koin:koin-test:$koin_version"
     implementation "io.insert-koin:koin-android:3.3.2"
 
-    // Navigation Component
-    implementation "androidx.navigation:navigation-fragment-ktx:2.4.0"
-    implementation "androidx.navigation:navigation-ui-ktx:2.4.0"
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.moshi:moshi-kotlin:$moshi_version"
+    implementation "com.squareup.retrofit2:converter-moshi:$retrofit_converter_moshi_version"
+    implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$kotlin_coroutines_adapter_version"
+    implementation "com.squareup.okhttp3:logging-interceptor:$logging_interceptor_version"
 }
