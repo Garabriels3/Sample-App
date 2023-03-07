@@ -6,6 +6,6 @@ import retrofit2.http.Body
 import retrofit2.http.POST
 
 interface LinkShortenerService {
-    @POST("/api/alias")
+    @POST("api/alias")
     fun createShortenedUrl(@Body request: OriginalUrlRequest): ShortenedUrlResponse
 }

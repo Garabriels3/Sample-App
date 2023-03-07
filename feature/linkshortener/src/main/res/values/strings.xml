@@ -1,4 +1,8 @@
 <resources>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_error_state_message">Algo errado aconteceu</string>
+    <string name="default_empty_state_message">Lista vazia</string>
+    <string name="short_url_link_button_label">Cortar link</string>
+    <string name="shortener_url_edit_text_placeholder">Cole o link aqui</string>
 </resources>

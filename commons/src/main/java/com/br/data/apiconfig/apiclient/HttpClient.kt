@@ -16,7 +16,7 @@ object HttpClient {
 
     fun retrofitBuild(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://api.github.com/")
+            .baseUrl("https://url-shortener-nu.herokuapp.com/")
             .client(okHttpBuild())
             .addCallAdapterFactory(CoroutineCallAdapterFactory())
             .addConverterFactory(MoshiConverterFactory.create(moshiFactory()).asLenient())

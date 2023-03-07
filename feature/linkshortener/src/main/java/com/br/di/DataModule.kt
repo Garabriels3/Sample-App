@@ -9,9 +9,18 @@ import com.br.data.service.LinkShortenerService
 import com.br.domain.repository.LinkShortenerRepository
 import org.koin.dsl.module
 
-val serviceModule = module { makeService<LinkShortenerService>() }
-
 val dataModule = module {
-        factory<LinkShortenerRemoteDataSource> { LinkShortenerRemoteDataSourceImpl(get()) }
-        factory<LinkShortenerRepository> { LinkShortenerRepositoryImpl(get(), ShortenedUrlResponseToShortenedUrlModelMapper()) }
+    single { makeService<LinkShortenerService>() }
+
+    factory<LinkShortenerRemoteDataSource> {
+        LinkShortenerRemoteDataSourceImpl(
+            linkShortenerService = get()
+        )
+    }
+    factory<LinkShortenerRepository> {
+        LinkShortenerRepositoryImpl(
+            get(),
+            ShortenedUrlResponseToShortenedUrlModelMapper()
+        )
+    }
 }

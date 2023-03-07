@@ -3,7 +3,7 @@ package com.br.shorturlapp
 import android.app.Application
 import com.br.di.dataModule
 import com.br.di.domainModule
-import com.br.di.serviceModule
+import com.br.di.presentationModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.component.KoinComponent
@@ -19,7 +19,7 @@ class ShortUrlApp : Application(), KoinComponent {
             // Reference Android context
             androidContext(this@ShortUrlApp)
             // Load modules
-            modules(dataModule, domainModule, serviceModule)
+            modules(presentationModule, dataModule, domainModule, )
         }
     }
 }
