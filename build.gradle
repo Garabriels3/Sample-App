@@ -12,19 +12,37 @@ buildscript {
         moshi_version = '1.14.0'
         moshi_codegen_version = '1.11.0'
         koin_version= "3.2.2"
+        koin_android_version = "3.3.2"
         room_version = "2.3.0"
         room_paging_version = "2.4.0"
         logging_interceptor_version = '5.0.0-alpha.11'
         turbine = "0.5.2"
         fragment_version = "1.4.1"
+        mock_web_server_version = "4.9.1"
+        navigation_version = "2.4.0"
+        espresso_version = "3.5.1"
+        junit_ext_version = "1.1.5"
+        junit_version = "4.13.2"
+        core_ktx_version = "1.7.0"
+        core_testing_version = "2.1.0"
+        appcompat_version = "1.6.0"
+        material_version = "1.8.0"
+        constraint_layout_version = "2.1.4"
+        viewmodel_ktx_version = "2.4.0"
+        livedata_version = "2.4.0"
+        coroutines_test_version = "1.6.0-RC"
+        gradle_version = "7.0.4"
+        gradle_plugin_version = "1.5.30"
+        mockk_version = "1.12.0"
+        json_file_reader_version = "0.3.0"
     }
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:7.0.4"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30"
+        classpath "com.android.tools.build:gradle:$gradle_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$gradle_plugin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files

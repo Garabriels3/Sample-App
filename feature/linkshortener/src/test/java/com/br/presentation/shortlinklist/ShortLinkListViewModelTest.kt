@@ -35,7 +35,6 @@ class ShortLinkListViewModelTest {
 
     private val originalUrl = "https://www.google.com"
 
-
     private val linkShortenerUseCase = mockk<LinkShortenerUseCase>()
     private val shortLinkModelToShortenedUrlUIMapper =
         mockk<Mapper<ShortenedUrlModel, ShortenedUrlUI>>()

@@ -19,7 +19,7 @@ class ShortUrlApp : Application(), KoinComponent {
             // Reference Android context
             androidContext(this@ShortUrlApp)
             // Load modules
-            modules(presentationModule, dataModule, domainModule, )
+            modules(presentationModule, dataModule, domainModule)
         }
     }
 }
