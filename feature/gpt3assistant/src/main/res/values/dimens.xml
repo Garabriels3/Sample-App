@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Dimensões em múltiplos de 4dp -->
+    <dimen name="dimen_0dp">0dp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_12dp">12dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+    <dimen name="dimen_24dp">24dp</dimen>
+    <dimen name="dimen_28dp">28dp</dimen>
+    <dimen name="dimen_32dp">32dp</dimen>
+    <dimen name="dimen_36dp">36dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="dimen_44dp">44dp</dimen>
+    <dimen name="dimen_48dp">48dp</dimen>
+    <dimen name="dimen_52dp">52dp</dimen>
+    <dimen name="dimen_56dp">56dp</dimen>
+    <dimen name="dimen_60dp">60dp</dimen>
+    <dimen name="dimen_64dp">64dp</dimen>
+    <dimen name="dimen_68dp">68dp</dimen>
+    <dimen name="dimen_72dp">72dp</dimen>
+    <dimen name="dimen_76dp">76dp</dimen>
+    <dimen name="dimen_80dp">80dp</dimen>
+    <dimen name="dimen_84dp">84dp</dimen>
+    <dimen name="dimen_88dp">88dp</dimen>
+    <dimen name="dimen_92dp">92dp</dimen>
+    <dimen name="dimen_96dp">96dp</dimen>
+    <dimen name="dimen_100dp">100dp</dimen>
+    <dimen name="dimen_104dp">104dp</dimen>
+    <dimen name="dimen_108dp">108dp</dimen>
+    <dimen name="dimen_112dp">112dp</dimen>
+    <dimen name="dimen_116dp">116dp</dimen>
+    <dimen name="dimen_120dp">120dp</dimen>
+    <dimen name="dimen_124dp">124dp</dimen>
+    <dimen name="dimen_128dp">128dp</dimen>
+    <dimen name="dimen_132dp">132dp</dimen>
+    <dimen name="dimen_136dp">136dp</dimen>
+    <dimen name="dimen_140dp">140dp</dimen>
+    <dimen name="dimen_144dp">144dp</dimen>
+
+    <dimen name="spacing_4dp">@dimen/dimen_4dp</dimen>
+    <dimen name="spacing_8dp">@dimen/dimen_8dp</dimen>
+    <dimen name="spacing_12dp">@dimen/dimen_12dp</dimen>
+    <dimen name="spacing_16dp">@dimen/dimen_16dp</dimen>
+    <dimen name="spacing_20dp">@dimen/dimen_20dp</dimen>
+    <dimen name="spacing_24dp">@dimen/dimen_24dp</dimen>
+    <dimen name="spacing_28dp">@dimen/dimen_28dp</dimen>
+    <dimen name="spacing_32dp">@dimen/dimen_32dp</dimen>
+    <dimen name="spacing_36dp">@dimen/dimen_36dp</dimen>
+    <dimen name="spacing_40dp">@dimen/dimen_40dp</dimen>
+    <dimen name="spacing_44dp">@dimen/dimen_44dp</dimen>
+    <dimen name="spacing_48dp">@dimen/dimen_48dp</dimen>
+    <dimen name="spacing_52dp">@dimen/dimen_52dp</dimen>
+    <dimen name="spacing_56dp">@dimen/dimen_56dp</dimen>
+    <dimen name="spacing_60dp">@dimen/dimen_60dp</dimen>
+    <dimen name="spacing_64dp">@dimen/dimen_64dp</dimen>
+    <dimen name="spacing_68dp">@dimen/dimen_68dp</dimen>
+    <dimen name="spacing_72dp">@dimen/dimen_72dp</dimen>
+    <dimen name="spacing_76dp">@dimen/dimen_76dp</dimen>
+    <dimen name="spacing_80dp">@dimen/dimen_80dp</dimen>
+    <dimen name="spacing_84dp">@dimen/dimen_84dp</dimen>
+    <dimen name="spacing_88dp">@dimen/dimen_88dp</dimen>
+    <dimen name="spacing_92dp">@dimen/dimen_92dp</dimen>
+    <dimen name="spacing_96dp">@dimen/dimen_96dp</dimen>
+    <dimen name="spacing_100dp">@dimen/dimen_100dp</dimen>
+    <dimen name="spacing_104dp">@dimen/dimen_104dp</dimen>
+    <dimen name="spacing_108dp">@dimen/dimen_108dp</dimen>
+    <dimen name="spacing_112dp">@dimen/dimen_112dp</dimen>
+    <dimen name="spacing_116dp">@dimen/dimen_116dp</dimen>
+    <dimen name="spacing_120dp">@dimen/dimen_120dp</dimen>
+    <dimen name="spacing_124dp">@dimen/dimen_124dp</dimen>
+    <dimen name="spacing_128dp">@dimen/dimen_128dp</dimen>
+    <dimen name="spacing_132dp">@dimen/dimen_132dp</dimen>
+    <dimen name="spacing_136dp">@dimen/dimen_136dp</dimen>
+    <dimen name="spacing_140dp">@dimen/dimen_140dp</dimen>
+    <dimen name="spacing_144dp">@dimen/dimen_144dp</dimen>
+
+    <dimen name="button_radius">8dp</dimen>
+    <dimen name="button_padding_horizontal">16dp</dimen>
+    <dimen name="button_padding_vertical">12dp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_xlarge">24sp</dimen>
+
+</resources>
+

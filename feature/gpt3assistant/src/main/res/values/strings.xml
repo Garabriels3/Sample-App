@@ -1,4 +1,7 @@
 <resources>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ask_label">Perguntar</string>
+    <string name="stop_label">Parar de gravar</string>
+    <string name="press_and_ask_title">Pressione e pergunte</string>
 </resources>

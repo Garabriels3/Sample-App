@@ -15,13 +15,11 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 class ShortLinkListFragment : BaseFragment<ShortLinkListState, ShortLinkListAction>() {
 
     private val binding by lazy { FragmentShortLinkListBinding.inflate(layoutInflater) }
-    private val viewModel by viewModel<ShortLinkListViewModel>()
+    override val viewModel by viewModel<ShortLinkListViewModel>()
     private val adapter by lazy { ShortLinkAdapter() }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
+    override fun onViewSetup(view: View, savedInstanceState: Bundle?) {
         setupAdapter()
-        onStartObservers(state = viewModel.state.asLiveData(), action = viewModel.action)
         onSendOriginalUrl()
     }
 
