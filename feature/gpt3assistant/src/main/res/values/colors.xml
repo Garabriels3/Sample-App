@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores primárias -->
+    <color name="primary">#2D3F63</color>
+    <color name="primary_dark">#1F2D42</color>
+    <color name="primary_light">#61CC9C</color>
+
+    <!-- Cores secundárias -->
+    <color name="secondary">#FF7043</color>
+    <color name="secondary_dark">#F4511E</color>
+    <color name="secondary_light">#FFA270</color>
+
+    <!-- Cores de destaque -->
+    <color name="accent">#9B59B6</color>
+    <color name="accent_dark">#388E3C</color>
+    <color name="accent_light">#81C784</color>
+
+    <!-- Cores para texto -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#C8C8C8</color>
+    <color name="text_icons">#FFFFFF</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_error">#FF6666</color>
+
+    <!-- Cores para fundos e superfícies -->
+    <color name="background">#2D2D2D</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="on_error">#FFFFFF</color>
+</resources>

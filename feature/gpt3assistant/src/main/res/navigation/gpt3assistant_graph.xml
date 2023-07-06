@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gpt3assistant_graph"
+    app:startDestination="@id/gpt3assistant_fragment">
+
+    <fragment
+        android:id="@+id/gpt3assistant_fragment"
+        android:name="com.br.gpt3assistant.presentation.ui.chatspeech.ChatSpeechFragment"
+        android:label="Gpt3AssistantFragment"
+        tools:layout="@layout/fragment_chat_speech"/>
+
+</navigation>

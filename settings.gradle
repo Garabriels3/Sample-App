@@ -14,7 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "SampleApplication"
 include ':app'
-include ':commondata'
-include ':commonui'
 include ':feature'
-include ':feature:pokemonlist'
+include ':feature:gpt3assistant'
+include ':feature:linkshortener'
+include ':commons'

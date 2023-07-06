@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".presentation.ui.chatspeech.ChatSpeechFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCanSpeakIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_32dp"
+        android:text="@string/press_and_ask_title"
+        android:textColor="@color/accent_light"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Pressione e pergunte" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/btnRecording"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCanSpeakIndicator">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvIAResponse"
+            android:layout_width="wrap_content"
+            android:textIsSelectable="true"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/spacing_16dp"
+            android:layout_marginTop="@dimen/spacing_12dp"
+            android:paddingBottom="@dimen/spacing_24dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp"
+            tools:text="Um barato sasarico tem a intencao de apresentar a voce, harry potter e a pedra filosofal a nao ser que voce nao queira pois ai terei que lançar novos filmes que serao realmente aterradores" />
+
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/btnRecording"
+        style="@style/PrimaryButton"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dimen_68dp"
+        android:text="@string/ask_label"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/pbLoading"
+        android:layout_width="@dimen/dimen_52dp"
+        android:layout_height="@dimen/dimen_52dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
