@@ -21,6 +21,7 @@ class SampleApp : Application(), KoinComponent {
             androidContext(this@SampleApp)
             // Load modules
             modules(presentation, dataModule, domain, service)
+            //dadwadw
         }
     }
 }
